@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Vendor, PurchaseOrder, HistoricalPerformance
+from vendors_app.models import Vendor, PurchaseOrder, HistoricalPerformance
 
 # Register your models here.
 admin.site.register(Vendor)
